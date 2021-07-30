@@ -1,0 +1,26 @@
+body {
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+.navbar{
+background-color: #739DC3;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+	color: white;
+}	
+
+.navbar-default .navbar-nav li a{
+	color:white;
+	background-color: #739DC3;
+	}
+
+.navbar-default .navbar-nav li a:active, .navbar-default .navbar-nav li a:hover{
+	color:white;
+	background-color:#739DC3;
+	text-decoration:none;
+}
